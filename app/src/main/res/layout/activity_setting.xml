@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SettingActivity">
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="250dp"
+       android:id="@+id/setting_profile_image"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="50dp"
+       android:src="@drawable/profile_image"></ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_setting"
+        android:drawableTint="@color/white"
+        android:layout_margin="20dp"
+        android:hint="Write your name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/edit_profile"
+        android:layout_below="@id/setting_profile_image"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_status"
+        android:drawableTint="@color/white"
+        android:layout_margin="20dp"
+        android:hint="Write your Status"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/edit_status"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/username_setting"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_setting_btn"
+        android:drawableTint="@color/white"
+        android:layout_margin="20dp"
+        android:text="Save"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:layout_below="@id/edit_status"></Button>
+
+
+
+</RelativeLayout>

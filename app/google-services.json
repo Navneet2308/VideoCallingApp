@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521751994133",
+    "firebase_url": "https://video-calling-app-63fb1.firebaseio.com",
+    "project_id": "video-calling-app-63fb1",
+    "storage_bucket": "video-calling-app-63fb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521751994133:android:8db0ccea448ff87333d31c",
+        "android_client_info": {
+          "package_name": "com.nav.videocallingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521751994133-7ujm90hb3h35apntlo998bd7nhtefm07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nav.videocallingapp",
+            "certificate_hash": "7a1e9490592cdfd841e8cea8e0f6bc343e16523a"
+          }
+        },
+        {
+          "client_id": "521751994133-1r023jo3de78s0fgmhrviouvaqba4kn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu7aovIL1oqKJpp5c_FTtQ-MXiJmocM5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521751994133-1r023jo3de78s0fgmhrviouvaqba4kn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
